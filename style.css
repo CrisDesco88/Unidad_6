@@ -1,0 +1,372 @@
+header, section, footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    height: 600px;
+}
+
+header#home {
+    height: 450px;
+    background-color:#cdfefe; 
+}
+
+nav#nav1 {
+    height: 70px;
+    width: 960px;
+    background-color: #99ff99;
+    margin: auto;
+}
+
+section#perfil {
+    background-color: #9966ff;
+}
+
+#div1perfil {
+    background-color: salmon;
+    height: 600px;
+    width: 599px;
+    float: left;
+    margin: 0px;
+}
+#div2perfil {
+    background-color: palegreen;
+    height: 600px;
+    width: 359px;
+    float: right;
+    margin: 0px;
+}
+
+section#portfolio {
+    background-color: #ff66cc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 900px;
+}
+
+#div2portfolio div {
+    height: 300px;
+    width: 300px;
+}
+//*#div2-1portfolio, #div2-2portfolio, #div2-3portfolio, #div2-4portfolio, #div2-5portfolio, #div2-6portfolio {
+    height: 300px;
+    width: 300px;
+}**/
+
+#div1portfolio {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(9, 51, 105);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2portfolio {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(17, 131, 68);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+#div2-1portfolio {
+    background-color: darkslateblue;
+}
+
+#div2-2portfolio {
+    background-color: darkslategray;
+}
+
+#div2-3portfolio {
+    background-color: deeppink;
+}
+
+#div2-4portfolio {
+    background-color: firebrick;
+}
+
+#div2-5portfolio {
+    background-color: goldenrod;
+}
+
+#div2-6portfolio {
+    background-color: sienna;
+}
+
+section#servicios {
+    background-color: #ff4d4d;
+}
+
+.container {
+    height: 600px;
+    width: 940px;
+    background-color: teal;
+    margin: auto;
+}
+
+#div1servicios {
+    height: 100px;
+    width: 600px;
+    background-color: yellow;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2servicios {
+    height: 350px;
+    width: 900px;
+    background-color: darkslateblue;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+section#fortalezas {
+    background-color: #ff9966;
+}
+
+#div1fortalezas {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(19, 19, 17);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2fortalezas {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(18, 73, 45);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+#div2fortalezas div {
+    width: 250px;
+    height: 150px;
+}
+
+#div2-1fortalezas {
+    background-color: #ff66cc;
+}
+
+#div2-2fortalezas {
+    background-color: #03046d;
+}
+
+#div2-3fortalezas {
+    background-color: #2b703d;
+}
+
+#div2-4fortalezas {
+    background-color: #dda50d;
+}
+
+#div2-5fortalezas {
+    background-color: #700505;
+}
+
+#div2-6fortalezas {
+    background-color: #46d6ca;
+}
+
+section#resume {
+    background-color: #2204aa;
+}
+
+#div1resume {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(102, 102, 10);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2resume {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(110, 107, 133);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+section#referencias {
+    background-color: #d44356;
+}
+
+#div1referencias {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(228, 108, 10);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2referencias {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(143, 9, 143);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+section#habilidades {
+    background-color: #ff0999;
+}
+
+#div1habilidades {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(49, 149, 25);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2habilidades {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(70, 17, 3);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+section#conocimientos {
+    background-color: #0b940b;
+}
+
+#div1conocimientos {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(17, 133, 168);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2conocimientos {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(97, 4, 97);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+} 
+
+section#hitos {
+    background-color: #1d727e;
+}
+
+#div1hitos {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(89, 6, 97);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2hitos {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(180, 58, 54);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+section#work-process {
+    background-color: #a8410e;
+}
+
+#div1work-process {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(231, 231, 26);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2work-process {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(194, 191, 211);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+section#contacto {
+    background-color: #197cbe;
+}
+
+#div1contacto {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(46, 202, 7);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#div2contacto {
+    height: 350px;
+    width: 900px;
+    background-color: rgb(239, 239, 240);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+footer {
+    height: 90px;
+    background-color: #88c50f;
+}
+
+
+
+
+
