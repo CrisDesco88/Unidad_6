@@ -4,21 +4,79 @@ header, section, footer {
     margin-right: auto;
 }
 
+body {
+    margin: 0;
+}
+
 section {
     height: 600px;
 }
 
 header#home {
     height: 450px;
-    background-color:#cdfefe; 
+    background-color:#cdfefe;
+    margin-top: 0; 
 }
 
 nav#nav1 {
     height: 70px;
     width: 960px;
-    background-color: #99ff99;
+    background-color: rgba(28, 28, 28, 0.83);
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    top: 0;
 }
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-item {
+    list-style: none;
+    background-color: rgba(28, 28, 28, 0.83);
+    height: 70px;
+    width: 100px;
+    padding: 0px;
+}
+
+.nav-anchor:hover {
+    background-color: #4d4d4e;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    border-radius: 20%;
+}
+
+ul.navbar-nav {
+    height: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+li.nav-item {
+    text-align: center;
+    
+}
+
+a.nav-anchor {
+    display: block;
+    text-decoration: none;
+    color: #fafbfd;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    padding-top: 1.5rem;
+    box-sizing: border-box;
+}
+
+
 
 section#perfil {
     background-color: #9966ff;
