@@ -57,20 +57,16 @@ nav#nav1 {
 
 .nav-item {
     list-style: none;
-    /**background-color: rgba(28, 28, 28, 0.83);**/
     height: 70px;
-    width: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
+    width: 130px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 ul.navbar-nav {
     height: 100%;
     margin: auto;
     padding: 0;
-
 }
 
 li.nav-item {
@@ -88,9 +84,7 @@ a.nav-anchor {
     width: 130px;
     text-align: center;
     padding:24px 0px;
-    /**margin-left: 10px;**/
     box-sizing: border-box;
-    /**background-color: rgba(28, 28, 28, 0);**/
     
 }
 
@@ -112,29 +106,20 @@ section#home {
     background-position: center;
     background-size: cover;
 }
-/**imagen anulada puesta como background**/
-/**#home img {
-   width: 100%;
-  object-fit: contain;**/
-
-}
 
 .contenedor-texto-central {
     width: 600px;
     height: 500px;
-    /**background-color: lightgray;**/
     display: flex;
-    align-items: center;
     margin: auto;
 }
 
 .texto-central {
     display: flex;
-    /**background-color: lightcoral;**/
     height: 300px;
     width: 600px;
     align-items: center;
-    margin: auto;
+    margin: 0;
     padding-top: 150px;
     flex-direction: column;
 }
@@ -162,6 +147,7 @@ section#home {
     font-size: 18px;
     color: #ffff;
     margin-top: 10px;
+    text-align: center;
 
 }
 
@@ -188,7 +174,6 @@ section#perfil {
 }
 
 .div1perfil {
-    /**background-color: salmon;**/
     height: 900px;
     width: calc(100% - 450px);
     float: left;
@@ -196,7 +181,6 @@ section#perfil {
 }
 
 .div1-1perfil {
-    /**background-color: lawngreen;**/
     height: 700px;
     width: 650px;
     margin: auto;
@@ -351,7 +335,6 @@ section#servicios {
 .container {
     height: 600px;
     width: 940px;
-    /**background-color: teal;**/
     margin: auto;
 }
 
@@ -605,7 +588,157 @@ footer {
     background-color: #88c50f;
 }
 
+/* inicio media 600px a 1023px*/
+@media all and (min-width: 600px) and (max-width: 1023px) {
+   
+    header, section, footer {
+        width: 100%; 
+        margin: auto;   
+    }
+    
+    section {
+        height: 600px;
+    }
+          
+    header#main-header {
+        height: 100%;
+    }
+           
+    nav#nav1 {
+        height: 600px;
+        width: 100%;
+        position: relative;
+        margin: auto;   
+    }
+    
+    .navbar-nav {
+        flex-direction: column;
+    }
+        
+    .contenedor-texto-central {
+        width: 375px;
+       
+    }
+    
+        .texto-central h1 {
+        line-height: 68px;
+    }
+    
+    .txt-cntrl-span1 {
+        margin-top: 0px;
+    }
+    
+    .txt-cntrl-span2 {
+        text-align: center;
+    }
+        
+    .div1perfil {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .div1-1perfil {
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .div1-1-1perfil {
+        width: 100%;
+        margin-top: 0px;
+    }
+      
+    .div2perfil {
+        display: none;
+        
+    }
+    
+}
+/* fin media 600px a 1023px */
+
+/* inicio media 0px a 599px */
+@media (max-width: 599px) {
+
+     header, section, footer {
+        width: 100%;
+    }
+   
+    body {
+        width: 100%;
+    }    
 
 
+    .container {
+        height: 600px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    
+    header#main-header {
+        height: 600px;
+        margin: auto;
+    }
+    
+    
+    
+    nav#nav1 {
+        height: 600px;
+        width:100%;
+        margin: auto;
+        position: relative;
+    }
+    
+    .navbar-nav {
+        flex-direction: column;
+    }
+    
+    section#home {
+        margin-top: 0px;
+        background-image: none;
+        background-color: #000;
+    }
 
+    a#boton-conoceme {
+        margin-top: 0;
+    }
+    
+    .contenedor-texto-central {
+        width: 100%;
+        margin: auto;
+    }
+        
+    .div1perfil {
+        height: 900px;
+        width:100%;
+        margin-top: 0px;
+        
+    }
+    
+    .div1-1perfil {
+        width: 100%;
+        margin: auto;
+        padding: 20px 15px;
+    }
 
+    .div1-1-1perfil {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .titulo-seccion {
+        margin: 10px auto;
+        text-align: center;
+    }
+   
+    div.contenedor-descarga-cv {
+        margin: 20px auto;
+    }
+
+    .div2perfil {
+        display: none;
+    }
+    
+}
+/* fin media 599px */
